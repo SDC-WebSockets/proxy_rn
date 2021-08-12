@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+}
+
+.pride-gradient {
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(90deg,  rgb(100, 91, 83) 0%, rgb(235, 82, 82) 18%, rgb(247, 143, 47) 34%, rgb(244, 193, 81) 49%, rgb(82, 187, 118) 66%, rgb(38, 165, 215) 82%, rgb(224, 105, 183) 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  color: #3c3b37;
+  font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  z-index: 3000;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 600px;
+}
+
+.nav-hamburger-menu {
+  display:none;
+  margin-left: 16px;
+  fill: #73726c;
+}
+
+.navbar img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.navbar p {
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: 14px;
+  white-space: nowrap;
+}
+
+.navbar p:hover {
+  color: #0f7c90;
+}
+
+.search-input-container {
+  width: 100%;
+  height: 46px;
+  border-radius: 9999px;
+  border: 1px solid #989586;
+  background-color: rgb(251, 251, 248);
+  overflow: hidden;
+}
+
+.search-input-container svg {
+  fill: #989586;
+  position: relative;
+  top: 5px;
+  left: 12px;
+}
+
+#search-input-text {
+  width: 60%;
+  height: 42px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  margin-left: 25px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.nav-magnifying-glass {
+  display: none;
+  position: relative;
+  margin-right: 10px;
+  top: -2px;
+  fill: #73726c;
+}
+
+.shopping-cart-icon {
+  fill: #73726c;
+  display: block;
+  margin-left: 14px;
+  margin-right: 14px;
+  flex: 0 0 auto;
+}
+
+.shopping-cart-icon:hover {
+  fill: #0e5f6d
+}
+
+.log-in-button {
+  background-color: transparent;
+  color:#0f7c90;
+  border: 1px solid #2896a9;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  display: inline-block;
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+.log-in-button:hover {
+  color: #0e5f6d;
+  border-color: #0e5f6d;
+}
+
+.sign-up-button {
+  margin-left: 8px;
+  border: 0;
+  background-color: #0f7c90;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  display: inline-block;
+  flex: 0 0 auto;
+  font-weight: 700;
+}
+
+.sign-up-button:hover {
+  background-color: #0e5f6d;
+}
+
+.world-icon {
+  margin-right: 16px;
+  margin-left: 8px;
+  height: 40px;
+  width: 40px;
+  flex: 0 0 auto;
+  display: inline-block;
+  fill: #73726c;
+  background-color: white;
+  border: 1px solid #989586;
+  border-radius: 4px;
+}
+
+.main-content-top-background {
+  width: 100%;
+  background-color: #1e1e1c;
+  position: absolute;
+  top: 80px;
+  height: 391px;
+  z-index: 0;
+}
+
+.main-content {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.main-content-top-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  padding-top: 28px;
+  position: relative;
+  z-index: 1000;
+}
+
+.top-companies-middle-wrapper {
+  padding: 24px;
+  width: 650px;
+  border-color: rgb(220, 218, 203);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 40px;
+  font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.top-companies-middle-title {
+  font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  line-height: 1.35;
+  letter-spacing: -.02rem;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.try-udemy-for-business {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 205px;
+  background-color: transparent;
+  color: rgb(15, 124, 144);
+  text-decoration: none;
+  border-color: rgb(40, 150, 169);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.try-udemy-for-business:hover {
+  color: rgb(9, 76, 89);
+  border-color: rgb(28, 106, 120);
+}
+
+.try-udemy-for-business:active {
+  color: rgb(9, 76, 89);
+  border-color: rgb(28, 106, 120);
+}
+
+.top-companies-logos {
+  margin: 8px 0px;
+}
+
+.top-company-logo {
+  margin: 8px 24px 8px 0px;
+}
+
+.main-content-bottom-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
+  margin-top: 30px;
+}
+
+.report-abuse-wrapper {
+  height: 72px;
+  border-top: 1px solid rgb(220, 218, 203);
+  width: 700px;
+}
+
+.report-abuse-button {
+  height: 40px;
+  width: 700px;
+  background-color: transparent;
+  color: rgb(15, 124, 144);
+  border-color: rgb(40, 150, 169);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.report-abuse-button:hover {
+  color: rgb(9, 76, 89);
+  border-color: rgb(28, 106, 120);
+}
+
+.report-abuse-button:active {
+  color: rgb(9, 76, 89);
+  border-color: rgb(28, 106, 120);
+}
+
+.top-companies-footer-wrapper {
+  min-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(220, 218, 203);
+  padding: 12px 48px;
+  font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.top-companies-footer-text-container {
+  padding: 12px 24px 12px 0;
+}
+
+.top-companies-footer-text {
+  font-size: 19px;
+  font-weight: 700;
+  display: block;
+}
+
+.top-companies-footer-link {
+  color: rgb(15, 124, 144);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.top-companies-footer-link:hover {
+  color: rgb(9, 76, 89);
+  border-color: rgb(28, 106, 120);
+}
+
+.top-companies-footer-link:active {
+  color: rgb(9, 76, 89);
+  border-color: rgb(28, 106, 120);
+}
+
+.top-companies-logos-footer {
+  margin: 8px 0;
+}
+
+.top-companies-logo-footer {
+  margin: 12px 24px 12px 0;
+}
+
+.footer-divider {
+  border-top: 1px solid rgb(220, 218, 203);
+}
+
+.footer {
+  padding-left: 48px;
+  padding-right: 48px;
+  font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.footer-nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-nav ul {
+  flex-basis: 256px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-nav li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #0f7c90;
+}
+
+.footer-nav li:hover {
+  color: #0e5f6d;
+}
+
+.footer-language-button {
+  width: 140px;
+  height: 40px;
+  fill: #73726c;
+  background-color: white;
+  border: 1px solid #989586;
+  border-radius: 4px;
+  font-size: 15px;
+  flex: 0 0 auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3c3b37;
+  position: relative;
+}
+
+.footer-language-button svg {
+  position: absolute;
+  left: 16px;
+}
+
+.footer-logo-bar {
+  margin-top: 50px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo-bar img {
+  width: 110px;
+  height: 30px;
+}
+
+.footer-logo-bar span {
+  font-size: 12px;
+  color: #73726c;
+}
+
+/* Services */
+
+#overview {
+  width: 700px;
+  height: 357px;
+  position: relative;
+}
+
+#infobar {
+  z-index: 2000;
+  position: relative;
+}
+
+.default-sidebar-position {
+  position: relative;
+  top: 30px;
+  z-index: 500;
+  float: right;
+  margin-top: 85px;
+  margin-bottom: 16px;
+}
+
+.sticky-sidebar-position {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+  z-index: 3000;
+  float: right;
+  margin-top: 110px;
+  margin-bottom: 16px;
+}
+
+.final-sidebar-position {
+  z-index: 500;
+  position: absolute;
+  right: 40px;
+  bottom: 14px;
+}
+
+.fade-in {
+  animation-duration: 1s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#content {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+#featured {
+  width: 700px;
+}
+
+#author {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+#reviews {
+  width: 700px;
+}
+
+/* Utility classes */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.tight-letters {
+  letter-spacing: -0.02em;
+}
+
+/* Media queries */
+@media (max-width: 1180px) {
+  #reviews {
+    width: 600px;
+  }
+
+  #featured {
+    width: 600px;
+  }
+
+  #author {
+    width: 600px;
+  }
+
+  #content {
+    width: 600px;
+  }
+
+  .top-companies-middle-wrapper {
+    width: 550px;
+  }
+
+  #overview {
+    width: 600px;
+  }
+
+  .main-content {
+    width: 980px;
+  }
+
+  .main-content-top-container {
+    width: 980px;
+  }
+
+  .report-abuse-wrapper {
+    width: 600px;
+  }
+
+  .report-abuse-button {
+    width: 600px;
+  }
+
+  .footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .top-companies-footer-wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 1080px) {
+  #sidebar {
+    display: none;
+  }
+
+  .nav-udemy-for-business {
+    display: none;
+  }
+
+  .main-content {
+    width: 600px;
+  }
+
+  .main-content-top-container {
+    width: 600px;
+    height: 1127px;
+  }
+
+  .main-content-bottom-container {
+    margin-top: 106px;
+  }
+
+  .main-content-top-background {
+    height: 1157px;
+  }
+}
+
+@media (max-width: 980px) {
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .top-companies-footer-wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav-teach-on-udemy {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-hamburger-menu {
+    display: inline-block;
+  }
+
+  .nav-magnifying-glass {
+    display: inline-block;
+  }
+
+  .search-input-container {
+    display: none;
+  }
+
+  .log-in-button {
+    display: none;
+  }
+
+  .sign-up-button {
+    display: none;
+  }
+
+  .world-icon {
+    display: none;
+  }
+
+  .navbar p {
+    display: none;
+  }
+
+  .navbar img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-content, .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .footer-nav {
+    flex-flow: column wrap;
+  }
+
+  .footer-nav ul {
+    flex-basis: auto;
+    order: 1;
+  }
+
+  .footer-language-button {
+    order: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+}

@@ -1,0 +1,4 @@
+.env
+SDC_ReverseProxy.pem
+node_modules
+public
