@@ -2,3 +2,5 @@
 SDC_ReverseProxy.pem
 node_modules
 public
+newrelic_agent.log
+newrelic.js
