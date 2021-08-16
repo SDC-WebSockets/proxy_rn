@@ -30,10 +30,10 @@ app.use('/course/item', createProxyMiddleware({
   changeOrigin: true,
 }));
 
-// app.use('/reviews/item', createProxyMiddleware({
-//   target: process.env.COURSEREVIEW_URL,
-//   changeOrigin: true,
-// }))
+app.use('/reviews/item', createProxyMiddleware({
+  target: process.env.COURSEREVIEW_URL,
+  changeOrigin: true,
+}))
 
 // app.use('/description/item', createProxyMiddleware({
 //   target: process.env.COURSEDESC_URL,

@@ -54,6 +54,7 @@
     "express": "^4.17.1",
     "http-proxy-middleware": "^0.19.1",
     "mongoose": "^5.12.7",
+    "newrelic": "^8.1.0",
     "node-zopfli-es": "^1.0.7",
     "nodemon": "^2.0.7",
     "pm2": "^5.1.0",
